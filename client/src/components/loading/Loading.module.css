@@ -1,0 +1,43 @@
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    height: 22.6em;
+}
+
+.containerImg {
+    height: 16.68300437927246em;
+    width: 17.812503814697266em;
+}
+
+.span {
+   margin: .5em 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #47392E;
+    /* ----- */
+    animation: pulsing 2s ease-in-out infinite;
+}
+
+@keyframes pulsing {
+
+    0%,
+    /* {
+        color: #47392E;
+    } */
+
+    100% {
+        color: transparent;
+    }
+
+    50% {
+        color: #47392E;
+    }
+}

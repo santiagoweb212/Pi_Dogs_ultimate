@@ -1,0 +1,29 @@
+
+
+.containerTitle {
+    width: 7.75em;
+    height: 4.5625em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containertitle_h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size:2em;
+    text-align: center;
+
+    color: #47392E;
+}
+
+.containertitle_h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: -1px 0 #47392E, 0 1px #47392E, 1px 0 #47392E, 0 -1px #47392E;
+}

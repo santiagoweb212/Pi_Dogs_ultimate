@@ -1,0 +1,65 @@
+.container{
+background-color: #47392E;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 83px;
+}
+.search_container {
+    background-color: #ECECEC;
+    width: 343px;
+    height: 55px;
+    border-radius: 30px;
+    margin-left: 102px;
+}
+
+.search_container_inputButton {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.search_container_inputButto_input {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    padding: 1em;
+    color: black;
+    outline: none;
+}
+
+.search_container_inputButto_button {
+    position: absolute;
+    width: 53px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: rgba(71, 57, 46, 0.58);
+    border-radius: 30px;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.img {
+    display: block;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+.search_container_inputButto_input::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    color: rgba(71, 57, 46, 0.4);
+
+}

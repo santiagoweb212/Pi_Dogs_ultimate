@@ -1,0 +1,18 @@
+.containerLink {
+    width: 13.8125em;
+    height: 3.6875em;
+    border: 0.1875rem solid #C04D4E;
+    border-radius: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLink_Link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.25em;
+    text-align: center;
+    color: #C04D4E;
+}
