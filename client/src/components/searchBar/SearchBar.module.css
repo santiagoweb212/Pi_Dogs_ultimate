@@ -25,8 +25,12 @@ background-color: #47392E;
     height: 100%;
     border-radius: 30px;
     padding: 1em;
-    color: black;
+    color: #765036;
     outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1em;
+        font-weight: 600;
+
 }
 
 .search_container_inputButto_button {
@@ -37,6 +41,7 @@ background-color: #47392E;
     right: 0;
     background: rgba(71, 57, 46, 0.58);
     border-radius: 30px;
+    
 }
 
 .button {
@@ -46,7 +51,9 @@ background-color: #47392E;
     cursor: pointer;
 
 }
-
+.button:hover{
+    background-color:  #E89562;
+}
 .img {
     display: block;
     margin: auto;
@@ -62,4 +69,7 @@ background-color: #47392E;
     letter-spacing: 0.07em;
     color: rgba(71, 57, 46, 0.4);
 
+}
+.search_container_inputButto_input::selection{
+    background-color: rgba(0, 174, 255, 0.422);
 }

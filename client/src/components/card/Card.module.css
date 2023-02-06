@@ -1,0 +1,111 @@
+.containerP {
+    width: 22.3521875em;
+    height: 26em;
+    background: #d9d9d9;
+    box-shadow: 10px 10px 23px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+ .containerP:hover{
+    transform: scale(1.07);
+    transition: 0.5s;
+ }
+.containerPTitle {
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPTitle_h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #47392E;
+
+}
+
+.containerPImgP {
+    width: 100%;
+    height: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPImgP_img {
+
+    width: 85%;
+    height: 85%;
+
+}
+
+.containerPImgP_img__img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center center;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+ .containerP:hover .containerPImgP_img__img{
+    filter: none;
+    transition: 1s;
+ }
+.containerPDataDogP {
+
+    width: 100%;
+    height: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPDataDogP_container {
+    width: 85%;
+    height: 90%;
+    display: flex;
+}
+
+.containerPDataDogP_container_temperaments {   
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerPDataDogP_container_temperaments_lista {
+    
+    color: #47392E;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.containerPDataDogP_container_otrosDatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #C0C0C0;
+    width: 50%;
+    height: 100%;
+    color: #47392E;
+}
+
+.containerPDataDogP_container_otrosDatos_span {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #47392E;
+}

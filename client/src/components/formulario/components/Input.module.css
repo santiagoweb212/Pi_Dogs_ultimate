@@ -1,0 +1,64 @@
+.containerP {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.containerLabel {
+    width: 8em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+}
+
+.containerLabelD {
+    width: 8em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    color: rgb(77, 49, 34);
+}
+
+.containerInput {
+    box-sizing: border-box;
+    width: calc(100% - 8em);
+    display: flex;
+    align-items: center;
+}
+
+.containerInputD {
+    box-sizing: border-box;
+    width: calc(100% - 8em);
+    display: flex;
+    align-items: center;
+    gap: .7em;
+}
+
+.label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: rgb(77, 49, 34);
+
+}
+
+.input {
+    width: 100%;
+    height: 2.4em;
+    background: #ECECEC;
+    border-radius: 30px;
+    color: rgb(77, 49, 34);
+    padding-left: .8em;
+
+}
+
+.inputD {
+    width: 50%;
+    background: #ECECEC;
+    border-radius: 30px;
+    height: 2.4em;
+    color: rgb(77, 49, 34);
+
+    text-align: center;
+}

@@ -1,7 +1,7 @@
-import estilos from "./Home.module.css";
+import estilos from "./Bienvenido.module.css";
 import fondoDog from "../../img/fondoDog.png";
 import { Link } from "react-router-dom";
-export const Home = () => {
+export const Bienvenido = () => {
   return (
     <div className={estilos.container}>
       <div className={estilos.container_img}>

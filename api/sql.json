@@ -1,0 +1,8 @@
+{
+  "name": "lobo",
+  "height": [{ "imperial": "9-11" }, { "metric": "23-15" }],
+  "peso": [{ "imperial": "9-16" }, { "metric": "23-18" }],
+  "life_span": "10 - 18 years",
+  "img": "https://cdn2.thedogapi.com/images/BJa4kxc4X.jpg",
+  "temperaments": ["Stubborn", "Curious", "Playful", "Adventurous"]
+}

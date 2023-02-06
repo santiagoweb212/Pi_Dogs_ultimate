@@ -21,8 +21,21 @@ const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
 
 // Syncing all the models at once.
-conn.sync({ force: true }).then(() => {
+/* conn.sync({ force: true }).then(() => {
   server.listen(3001, () => {
     console.log('%s listening at 3001'); // eslint-disable-line no-console
   });
 });
+ */
+ const main = async () => {
+  try {
+    await conn.sync( {force: false} ); // me sincroniza las tablas con la BD.
+    server.listen(3100, () => {
+      console.log("Server en 3100");
+    });
+  } catch (error) {
+    console.log("No se pudo conectar", error.message);
+  }
+};
+
+main(); 

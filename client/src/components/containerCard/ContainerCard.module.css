@@ -1,0 +1,18 @@
+.containerPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    margin: 0 102px;
+
+}
+
+.containerButton {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 0 102px;
+    margin-bottom: 1.5em;
+    
+
+}

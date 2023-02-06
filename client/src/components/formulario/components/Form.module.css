@@ -1,0 +1,218 @@
+.formularioContainer {
+    display: flex;
+    height: calc(27.5em - 3em);
+
+}
+
+.containerP {
+    width: 43em;
+    height: 27.5em;
+    background: #d9d9d9;
+    border-radius: 20px;
+    padding: 0 30px;
+}
+
+.containerTitle {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.containerH3Breed {
+    width: 55%;
+}
+
+.containerH3Temperament {
+    width: 45%;
+    padding-left: 1.5em;
+}
+
+.h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #47392E;
+}
+
+.containerFormLeft {
+    width: 55%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containerButtonDelete {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0em;
+    right: 0;
+    margin-bottom: .5em;
+}
+
+.buttonDelete {
+    width: 213px;
+    height: 59px;
+    border: 2px solid #C04D4E;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+
+    color: #C04D4E;
+}
+
+/* --------------right--------- */
+.containerT{
+    background-color: aqua;
+    position: relative;
+    
+    height: calc(10.3em + 3em);
+}
+.containerFormRight {
+    width: 45%;
+    padding-left: 1.5em;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.containerDropDown {
+
+    width: 100%;
+    height: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: chocolate;
+}
+
+.dropdownButton {
+    box-sizing: border-box;
+    width: 213px;
+    height: 36px;
+    background: #ECECEC;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(71, 57, 46, 0.4);
+
+
+
+}
+
+.dropdown_options {
+    max-height: 150px;
+    overflow-y: scroll;
+    width: 213px;
+    background-color: #ecececdb;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #47392E;
+    position: absolute;
+    z-index: 100;
+    top: 90%;
+    scrollbar-width: thin;
+    scrollbar-color: #47392E #e3dada;
+}
+
+.dropdown_options li {
+    cursor: pointer;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputCheck {
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+   
+}
+
+.labelChek {
+    color: #47392E;
+    cursor: pointer;
+}
+
+.containerButtonCreate {
+    box-sizing: border-box;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    margin-bottom: .5em;
+
+}
+
+.buttonCreate {
+    box-sizing: border-box;
+    width: 13.8125rem;
+    height: 3.6875rem;
+
+    background: #C04D4E;
+    border-radius: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25em;
+
+    text-align: center;
+
+    color: #ECECEC;
+    cursor: pointer;
+}
+
+/* -----------------errores----------------------------- */
+.errorSpan {
+    color: rgb(246, 3, 3);
+    height: 1.3rem;
+}
+
+.errorDivisionSpan {
+
+    width: 16px;
+    height: 1.3rem;
+}
+
+.buttonCreateDisable {
+    box-sizing: border-box;
+    width: 13.8125rem;
+    height: 3.6875rem;
+
+    background: #C04D4E;
+    border-radius: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25em;
+
+    text-align: center;
+
+    color: #ECECEC;
+    
+    cursor: not-allowed;
+}
+.errorSpanT {
+    position: absolute;
+    font-size: 12px;
+    color: red;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
